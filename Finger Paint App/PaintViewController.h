@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PaintViewController.h
 //  Finger Paint App
 //
 //  Created by Errol Cheong on 2017-07-09.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface PaintViewController : UIViewController
 
 @end
-

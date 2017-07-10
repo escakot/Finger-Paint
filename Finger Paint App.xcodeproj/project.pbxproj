@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D11F897A1F12E30800367379 /* PaintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D11F89791F12E30800367379 /* PaintViewController.m */; };
+		D11F89831F1320CF00367379 /* PaintLine.m in Sources */ = {isa = PBXBuildFile; fileRef = D11F89821F1320CF00367379 /* PaintLine.m */; };
+		D11F89861F13228900367379 /* PaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = D11F89851F13228900367379 /* PaintView.m */; };
 		D17C3DEC1F126DB700CF9BD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D17C3DEB1F126DB700CF9BD4 /* main.m */; };
 		D17C3DEF1F126DB700CF9BD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D17C3DEE1F126DB700CF9BD4 /* AppDelegate.m */; };
-		D17C3DF21F126DB700CF9BD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D17C3DF11F126DB700CF9BD4 /* ViewController.m */; };
 		D17C3DF51F126DB700CF9BD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D17C3DF31F126DB700CF9BD4 /* Main.storyboard */; };
 		D17C3DF71F126DB700CF9BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D17C3DF61F126DB700CF9BD4 /* Assets.xcassets */; };
 		D17C3DFA1F126DB700CF9BD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D17C3DF81F126DB700CF9BD4 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D11F89781F12E30800367379 /* PaintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintViewController.h; sourceTree = "<group>"; };
+		D11F89791F12E30800367379 /* PaintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintViewController.m; sourceTree = "<group>"; };
+		D11F89811F1320CF00367379 /* PaintLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaintLine.h; path = ../PaintLine.h; sourceTree = "<group>"; };
+		D11F89821F1320CF00367379 /* PaintLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaintLine.m; path = ../PaintLine.m; sourceTree = "<group>"; };
+		D11F89841F13228900367379 /* PaintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintView.h; sourceTree = "<group>"; };
+		D11F89851F13228900367379 /* PaintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintView.m; sourceTree = "<group>"; };
 		D17C3DE71F126DB600CF9BD4 /* Finger Paint App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Finger Paint App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D17C3DEB1F126DB700CF9BD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D17C3DED1F126DB700CF9BD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D17C3DEE1F126DB700CF9BD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D17C3DF01F126DB700CF9BD4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D17C3DF11F126DB700CF9BD4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D17C3DF41F126DB700CF9BD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D17C3DF61F126DB700CF9BD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D17C3DF91F126DB700CF9BD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,14 +64,14 @@
 		D17C3DE91F126DB600CF9BD4 /* Finger Paint App */ = {
 			isa = PBXGroup;
 			children = (
-				D17C3DED1F126DB700CF9BD4 /* AppDelegate.h */,
-				D17C3DEE1F126DB700CF9BD4 /* AppDelegate.m */,
-				D17C3DF01F126DB700CF9BD4 /* ViewController.h */,
-				D17C3DF11F126DB700CF9BD4 /* ViewController.m */,
+				D11F89781F12E30800367379 /* PaintViewController.h */,
+				D11F89791F12E30800367379 /* PaintViewController.m */,
+				D11F89841F13228900367379 /* PaintView.h */,
+				D11F89851F13228900367379 /* PaintView.m */,
+				D11F89811F1320CF00367379 /* PaintLine.h */,
+				D11F89821F1320CF00367379 /* PaintLine.m */,
 				D17C3DF31F126DB700CF9BD4 /* Main.storyboard */,
-				D17C3DF61F126DB700CF9BD4 /* Assets.xcassets */,
 				D17C3DF81F126DB700CF9BD4 /* LaunchScreen.storyboard */,
-				D17C3DFB1F126DB700CF9BD4 /* Info.plist */,
 				D17C3DEA1F126DB700CF9BD4 /* Supporting Files */,
 			);
 			path = "Finger Paint App";
@@ -74,6 +80,10 @@
 		D17C3DEA1F126DB700CF9BD4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D17C3DED1F126DB700CF9BD4 /* AppDelegate.h */,
+				D17C3DEE1F126DB700CF9BD4 /* AppDelegate.m */,
+				D17C3DF61F126DB700CF9BD4 /* Assets.xcassets */,
+				D17C3DFB1F126DB700CF9BD4 /* Info.plist */,
 				D17C3DEB1F126DB700CF9BD4 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -150,8 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D17C3DF21F126DB700CF9BD4 /* ViewController.m in Sources */,
 				D17C3DEF1F126DB700CF9BD4 /* AppDelegate.m in Sources */,
+				D11F897A1F12E30800367379 /* PaintViewController.m in Sources */,
+				D11F89831F1320CF00367379 /* PaintLine.m in Sources */,
+				D11F89861F13228900367379 /* PaintView.m in Sources */,
 				D17C3DEC1F126DB700CF9BD4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +321,7 @@
 				D17C3E001F126DB700CF9BD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
